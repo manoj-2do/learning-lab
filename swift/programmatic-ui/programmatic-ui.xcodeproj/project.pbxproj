@@ -10,6 +10,7 @@
 		27D414762F595F020078554F /* BasicView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D414D12F5968810078554F /* UiTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UiTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D415442F5990480078554F /* UIStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D4155F2F59A83F0078554F /* ChildView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -33,6 +34,13 @@
 				Info.plist,
 			);
 			target = 27D415432F5990480078554F /* UIStackView */;
+		};
+		27D415702F59A8410078554F /* Exceptions for "ChildView" folder in "ChildView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 27D4155E2F59A83F0078554F /* ChildView */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -61,6 +69,14 @@
 			path = UIStackView;
 			sourceTree = "<group>";
 		};
+		27D415602F59A83F0078554F /* ChildView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				27D415702F59A8410078554F /* Exceptions for "ChildView" folder in "ChildView" target */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27D4155C2F59A83F0078554F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +117,7 @@
 				27D414782F595F020078554F /* BasicView */,
 				27D414D22F5968810078554F /* UITableView */,
 				27D415452F5990480078554F /* UIStackView */,
+				27D415602F59A83F0078554F /* ChildView */,
 				27D414772F595F020078554F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +128,7 @@
 				27D414762F595F020078554F /* BasicView.app */,
 				27D414D12F5968810078554F /* UiTableView.app */,
 				27D415442F5990480078554F /* UIStackView.app */,
+				27D4155F2F59A83F0078554F /* ChildView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +202,28 @@
 			productReference = 27D415442F5990480078554F /* UIStackView.app */;
 			productType = "com.apple.product-type.application";
 		};
+		27D4155E2F59A83F0078554F /* ChildView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D415712F59A8410078554F /* Build configuration list for PBXNativeTarget "ChildView" */;
+			buildPhases = (
+				27D4155B2F59A83F0078554F /* Sources */,
+				27D4155C2F59A83F0078554F /* Frameworks */,
+				27D4155D2F59A83F0078554F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27D415602F59A83F0078554F /* ChildView */,
+			);
+			name = ChildView;
+			packageProductDependencies = (
+			);
+			productName = ChildView;
+			productReference = 27D4155F2F59A83F0078554F /* ChildView.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,6 +241,9 @@
 						CreatedOnToolsVersion = 16.3;
 					};
 					27D415432F5990480078554F = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					27D4155E2F59A83F0078554F = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
@@ -215,6 +265,7 @@
 				27D414752F595F020078554F /* BasicView */,
 				27D414D02F5968810078554F /* UiTableView */,
 				27D415432F5990480078554F /* UIStackView */,
+				27D4155E2F59A83F0078554F /* ChildView */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +292,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27D4155D2F59A83F0078554F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +317,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		27D415402F5990480078554F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D4155B2F59A83F0078554F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,6 +616,60 @@
 			};
 			name = Release;
 		};
+		27D415722F59A8410078554F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChildView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manoj2do.programmatic-ui.ChildView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D415732F59A8410078554F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChildView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manoj2do.programmatic-ui.ChildView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,6 +705,15 @@
 			buildConfigurations = (
 				27D415552F5990490078554F /* Debug */,
 				27D415562F5990490078554F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D415712F59A8410078554F /* Build configuration list for PBXNativeTarget "ChildView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D415722F59A8410078554F /* Debug */,
+				27D415732F59A8410078554F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
